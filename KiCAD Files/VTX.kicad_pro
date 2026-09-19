@@ -682,13 +682,21 @@
         "uuid": "651818e1-5ce0-4417-b1cb-74ad7fb332a5"
       }
     ],
-    "used_designators": "D1-2,L1-2,#PWR1-11,U1-2,R1-8,#FLG1-6,J1-2,C1-16,H1-4",
+    "used_designators": "D1-2,L1-4,#PWR1-14,U1-4,R1-16,#FLG1-6,J1-3,C1-36,H1-4,IC1-3,Y1",
     "variants": []
   },
   "sheets": [
     [
       "651818e1-5ce0-4417-b1cb-74ad7fb332a5",
       ""
+    ],
+    [
+      "5d9d4801-74c6-4804-8671-66e83b6c058e",
+      "Buck Converter"
+    ],
+    [
+      "2f8d1647-63e9-48ce-8ca8-2499d37ad36b",
+      "USB Hub"
     ]
   ],
   "text_variables": {

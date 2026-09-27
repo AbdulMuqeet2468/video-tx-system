@@ -1,5 +1,5 @@
 
-(footprint LEDC2012X70N (layer F.Cu) (tedit 6AA692C0)
+(footprint LEDC2012X70N (layer F.Cu) (tedit 6AB13931)
   (descr "<b>CAPACITOR</b><p>")
   (attr smd)
   (fp_text reference REF** (at 0.28 -1.395 0) (layer F.SilkS)

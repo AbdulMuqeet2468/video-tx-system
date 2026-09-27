@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "FE1.1S-BSOP28BCN") (type "KiCad") (uri "D:/VTX Project/Libraries/Footprints/FE1.1S-BSOP28BCN.pretty") (options "") (descr ""))
+)

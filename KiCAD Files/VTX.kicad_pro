@@ -74,6 +74,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.22,
+          "via_gap": 0.22,
+          "width": 0.3
+        },
+        {
+          "gap": 0.18,
+          "via_gap": 0.22,
+          "width": 0.35
         }
       ],
       "drc_exclusions": [],
@@ -146,22 +156,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.152,
+        "min_connection": 0.152,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
+        "min_microvia_diameter": 0.25,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_silk_clearance": 0.152,
+        "min_text_height": 0.584,
+        "min_text_thickness": 0.152,
+        "min_through_hole_diameter": 0.35,
+        "min_track_width": 0.152,
+        "min_via_annular_width": 0.152,
+        "min_via_diameter": 0.554,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -211,6 +221,7 @@
       ],
       "track_widths": [
         0.0,
+        0.16,
         0.25,
         0.5,
         1.0,
@@ -682,7 +693,7 @@
         "uuid": "651818e1-5ce0-4417-b1cb-74ad7fb332a5"
       }
     ],
-    "used_designators": "D1-2,L1-4,#PWR1-14,U1-4,R1-16,#FLG1-6,J1-3,C1-36,H1-4,IC1-3,Y1",
+    "used_designators": "T1-2,#PWR1-14,L1-4,D1-2,U1-5,J1-8,R1-42,#FLG1-6,C1-70,H1-4,IC1-6,Y1-4,FL1-6",
     "variants": []
   },
   "sheets": [
@@ -700,7 +711,35 @@
     ]
   ],
   "text_variables": {
-    "SHEETTOTAL": "1"
+    "@BOARD NAME": "Board1",
+    "@CREATE DATE": "2026-09-21",
+    "@CREATE TIME": "13:02:55",
+    "@PAGE COUNT": "1",
+    "@PAGE NAME": "P1",
+    "@PAGE NO": "1",
+    "@PROJECT NAME": "New Project_2026-09-21_13-02-43",
+    "@SCHEMATIC NAME": "Schematic1",
+    "@UPDATE DATE": "2026-09-21",
+    "@UPDATE TIME": "13:02:55",
+    "BLADE WIDTH": "10",
+    "BORDER": "1",
+    "COLOR": "",
+    "COMPANY": "EasyEDA.com",
+    "DESCRIPTION": "",
+    "DEVICE": "Drawing-Symbol_A4",
+    "DRAWN": "",
+    "HEIGHT": "825",
+    "NAME": "",
+    "PAGE SIZE": "A4",
+    "REGION START": "1",
+    "REVIEWED": "",
+    "SHEETTOTAL": "1",
+    "SYMBOL": "Drawing-Symbol_A4",
+    "TITLE BLOCK POSITION": "3",
+    "VERSION": "V1.0",
+    "WIDTH": "1170",
+    "X REGION COUNT": "6",
+    "Y REGION COUNT": "4"
   },
   "tuning_profiles": {
     "meta": {
